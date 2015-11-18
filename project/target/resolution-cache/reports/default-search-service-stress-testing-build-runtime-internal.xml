@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="search-service-stress-testing-build"
+		revision="0.1-SNAPSHOT"
+		extra-scalaVersion="2.10"
+		extra-sbtVersion="0.13"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151118130652"/>
+	<dependencies>
+		<module organisation="io.gatling" name="gatling-sbt">
+			<revision name="2.1.5" status="release" pubdate="20150413200728" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" homepage="http://gatling.io" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2134" time="2870" location="/Users/georgesi/.ivy2/cache/scala_2.10/sbt_0.13/io.gatling/gatling-sbt/ivy-2.1.5.xml" searched="true" original-local-location="/Users/georgesi/.ivy2/cache/scala_2.10/sbt_0.13/io.gatling/gatling-sbt/ivy-2.1.5.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.gatling/gatling-sbt/scala_2.10/sbt_0.13/2.1.5/ivys/ivy.xml"/>
+				<caller organisation="default" name="search-service-stress-testing-build" conf="compile, runtime-internal, runtime, optional" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="gatling-sbt" type="jar" ext="jar" status="successful" details="" size="93374" time="2634" location="/Users/georgesi/.ivy2/cache/scala_2.10/sbt_0.13/io.gatling/gatling-sbt/jars/gatling-sbt-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.gatling/gatling-sbt/scala_2.10/sbt_0.13/2.1.5/jars/gatling-sbt.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
